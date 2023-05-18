@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item.active {
+    background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+.item.active:hover {
+    background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+    transform: scale(1);
+}
+
+.item.active:active {
+    transform: scale(.95);
+}
+
+.item.winner {
+    /* background-color: red; */
+}
+
+.line {
+    transform: translate(-2.5vh, -2.5vh) rotate(90deg);
+}
+
+.line.dig-rig {
+    transform: translate(-2.5vh, -2.5vh) rotate(90deg);
+}
+
+.line.dig-lef {
+    transform: translate(-2.5vh, -2.5vh) rotate(0deg);
+}
+
+.line.v-bot {
+    transform: translate(-2.5vh, -2.5vh) rotate(-45deg);
+}
+
+.line.top {
+    transform: translate(-2.5vh, -22vh) rotate(-45deg);
+}
+
+.line.bot {
+    transform: translate(-2.5vh, 18vh) rotate(-45deg);
+}
+
+.line.lef {
+    transform: translate(-22vh, -2.5vh) rotate(45deg);
+}
+
+.line.rig {
+    transform: translate(18vh, -2.5vh) rotate(45deg);
+}
+
+.h-cen {
+    transform: translate(-2.5vh, -2.5vh) rotate(45deg);
+}
